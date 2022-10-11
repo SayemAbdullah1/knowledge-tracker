@@ -1,0 +1,12 @@
+.chart h1{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.chartData{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
