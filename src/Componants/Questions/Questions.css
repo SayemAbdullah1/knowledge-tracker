@@ -1,0 +1,9 @@
+.question{
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid skyblue;
+    width: 40%;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 15px;
+}

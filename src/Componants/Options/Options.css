@@ -1,0 +1,10 @@
+.option{
+    border: 1px solid skyblue;
+    margin-top: 5px;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.option:hover{
+    background-color: rgb(252, 222, 227);
+}

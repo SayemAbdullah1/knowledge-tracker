@@ -1,9 +1,15 @@
 import './Topic.css'
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Topic = ({ topic }) => {
-    
-    const { id, name, logo, total } = topic
+
+    const { id, name, logo, total } = topic;
+
+    const navigate = useNavigate()
+    const handleNavigate = ()=>{
+        navigate(`/${id}`)
+    }
     return (
         <div className='topic'>
             <img src={logo} alt="" />
@@ -15,7 +21,7 @@ const Topic = ({ topic }) => {
             </div>
 
             <div>
-                    <button className='btn'><strong>Start quiz</strong></button>
+                    <button onClick={handleNavigate} className='btn'><strong>Start quiz</strong></button>
             </div>
 
             </div>
