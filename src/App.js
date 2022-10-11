@@ -3,13 +3,19 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Header from './Componants/Header/Header';
 import Blog from './Componants/Blog/Blog';
 import Topics from './Componants/Topics/Topics';
 import Statistics from './Componants/Statistics/Statistics';
 import Main from './Componants/layout/Main';
 import ErrorPage from './Componants/ErrorPage/ErrorPage';
 import Quiz from './Componants/Quiz/Quiz';
+
+import 'react-toastify/dist/ReactToastify.css';
+
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faCheckSquare, faEyeDropper } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faCheckSquare, faEyeDropper)
 
 
 function App() {

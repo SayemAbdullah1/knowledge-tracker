@@ -7,3 +7,12 @@
     border-radius: 10px;
     padding: 15px;
 }
+
+.icon:hover{
+    color: rgb(247, 33, 68);
+}
+.questionIcon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -8,7 +8,7 @@ const Options = ({ toOption }) => {
         <div className='option'>
             
             
-            <p> <input type="radio" value="" name="" /> {toOption}</p>
+            <p> <input type="radio" value="" name="name" /> {toOption}</p>
         </div>
     );
 };
