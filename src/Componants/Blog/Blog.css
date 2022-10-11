@@ -1,0 +1,15 @@
+.blogs h1{
+    text-align: center;
+    background-color: rgb(245, 221, 225);
+    padding: 50px;
+}
+
+.blog {
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid skyblue;
+    width: 40%;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 15px;
+}
