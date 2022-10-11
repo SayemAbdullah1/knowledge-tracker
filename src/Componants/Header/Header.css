@@ -1,8 +1,10 @@
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 5px 40px;
+    padding: 0px 40px;
     align-items: center;
+    background-color: rgb(244, 241, 241);
+
 }
 .link a{
     text-decoration: none;

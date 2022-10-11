@@ -2,6 +2,7 @@ import './Topic.css'
 import React from 'react';
 
 const Topic = ({ topic }) => {
+    
     const { id, name, logo, total } = topic
     return (
         <div className='topic'>
