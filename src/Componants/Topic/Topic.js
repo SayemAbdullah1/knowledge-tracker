@@ -11,23 +11,26 @@ const Topic = ({ topic }) => {
         navigate(`/${id}`)
     }
     return (
-        <div className='topic'>
-            <img src={logo} alt="" />
-            <div className='topic-info'>
+        <div>
+            
+            <div className='topic'>
+                <img src={logo} alt="" />
+                <div className='topic-info'>
 
-            <div className='details'>
-            <h3>{name}</h3>
-            <p id='total'><small>Total: {total}</small></p>
+                    <div className='details'>
+                        <h3>{name}</h3>
+                        <p id='total'><small>Total: {total}</small></p>
+                    </div>
+
+                    <div>
+                        <button onClick={handleNavigate} className='btn'><strong>Start quiz</strong></button>
+                    </div>
+
+                </div>
+
+
             </div>
-
-            <div>
-                    <button onClick={handleNavigate} className='btn'><strong>Start quiz</strong></button>
-            </div>
-
-            </div>
-
-
-            </div>
+        </div>
     );
 };
 

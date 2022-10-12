@@ -6,3 +6,16 @@
     justify-items: center;
 
 }
+.header-bar {
+    background: linear-gradient(#e66465, #9198e5);
+    height: 200px;
+    text-align: center;
+}
+.header-bar p{
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 80px;
+
+
+}
