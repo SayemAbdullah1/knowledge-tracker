@@ -6,7 +6,7 @@ import './Questions.css'
 import { ToastContainer, toast } from 'react-toastify';
 
 const Questions = ({ totalQuestion }) => {
-    const { question, correctAnswer } = totalQuestion
+    const { question, correctAnswer, id } = totalQuestion
     // console.log(totalQuestion)
     const notify = () => toast(correctAnswer);
     return (
@@ -17,7 +17,7 @@ const Questions = ({ totalQuestion }) => {
                 </div>
                 <div>
                     <button onClick={notify} className='icon'><FontAwesomeIcon icon={faEye}/></button>
-                    <ToastContainer></ToastContainer>
+                
                 </div>
 
             </div>
@@ -25,7 +25,9 @@ const Questions = ({ totalQuestion }) => {
             {
                 totalQuestion.options.map(toOption => <Options
                     toOption={toOption}
-                    // key = {id}
+                    key={toOption.id}
+                    id={id}
+                    correctAnswer={correctAnswer}
                 ></Options>
                 )
             }

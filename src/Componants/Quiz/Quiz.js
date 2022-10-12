@@ -19,6 +19,7 @@ const Quiz = () => {
                 ></Questions>)
             }
             
+            
         </div>
     );
 };
