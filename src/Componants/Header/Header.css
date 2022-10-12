@@ -18,3 +18,15 @@
     padding: 0;
     outline: 0;
 }
+@media screen and (max-width: 688px){
+.header{
+        width: 95%;
+        padding: 0px 10px;
+    }
+.link a {
+            padding: 0px 10px;
+}
+.header h2{
+    font-size: 20px;
+}
+}

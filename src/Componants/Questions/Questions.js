@@ -7,7 +7,7 @@ import { ToastContainer, toast } from 'react-toastify';
 
 const Questions = ({ totalQuestion }) => {
     const { question, correctAnswer } = totalQuestion
-    // console.log(correctAnswer)
+    // console.log(totalQuestion)
     const notify = () => toast(correctAnswer);
     return (
         <div className='question'>

@@ -2,13 +2,15 @@ import React from 'react';
 import './Options.css'
 
 const Options = ({ toOption }) => {
-    // const { options } = toOption
-    // console.log(toOption)
+    // const { correctAnswer } = totalQuestion
+    // console.log(correctAnswer)
+
     return (
         <div className='option'>
             
-            
-            <p> <input type="radio" value="" name="name" /> {toOption}</p>
+            <p>
+            <label><input type="radio" value="" name="name" /> {toOption}</label>
+            </p>
         </div>
     );
 };

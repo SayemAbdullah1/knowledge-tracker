@@ -11,7 +11,7 @@ const Statistics = () => {
         <div className='chart'>
             <h1>Chart data with total quiz</h1>
             <div className='chartData'>
-                <ResponsiveContainer width={500} height={400}>
+                <ResponsiveContainer width= '90%' height={400}>
                     <LineChart data={newStatistics}>
 
                         <CartesianGrid strokeDasharray="3 3" />

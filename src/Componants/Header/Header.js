@@ -11,7 +11,7 @@ const Header = () => {
             <div className='link'>
                 {/* <Link to='/'>Header</Link> */}
                 <NavLink id='nav' className={({ isActive }) => isActive ? 'active' : undefined}></NavLink>
-                <NavLink to='/home'>Topics</NavLink>
+                <NavLink to='/'>Topics</NavLink>
                 <NavLink to='/statistics'>Statistics</NavLink>
                 <NavLink to='/blog'>Blog</NavLink>
                 

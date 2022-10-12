@@ -25,7 +25,7 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage></ErrorPage>,
     element: <Main></Main>, children: [
 
-  {path: '/home', 
+  {path: '/', 
     loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
     element: <Topics></Topics>},
     {path: '/:topicsId',
